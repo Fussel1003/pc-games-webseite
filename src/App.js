@@ -1,23 +1,13 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import GamesListing from './GamesListing';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>PC Games Webseite</h1>
+      <GamesListing name="Game Title 1" image="https://via.placeholder.com/150" />
+      <GamesListing name="Game Title 2" image="https://via.placeholder.com/150" />
     </div>
   );
 }
