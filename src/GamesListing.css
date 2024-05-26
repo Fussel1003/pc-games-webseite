@@ -32,6 +32,12 @@
   color: #ccc;
 }
 
+.game-timer {
+  margin-top: 8px;
+  font-size: 1rem;
+  color: #ff6347;
+}
+
 .buy-button {
   margin-top: 12px;
   padding: 10px 20px;
