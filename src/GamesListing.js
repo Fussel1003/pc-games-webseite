@@ -15,7 +15,7 @@ const GamesListing = ({ name, image, price }) => {
 
   return (
     <div className="game-listing">
-      <img src={image} alt={name} className="game-image" />
+      <img src={image} alt={name} className="game-image" style={{width:"100%",hight:"auto"}} />
       <h2 className="game-name">{name}</h2>
       <p className="game-price">{price} €</p>
       <p className="game-timer">Verfügbar für: {timer} Sekunden</p>
